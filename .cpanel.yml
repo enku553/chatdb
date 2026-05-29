@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/enkualem/public_html/chat/
-    - /bin/cp -R dist/* $DEPLOYPATH
+    - /bin/cp -R frontend/dist/* $DEPLOYPATH
